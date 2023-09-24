@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cabeza{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    font-size: 24px
+}
+.cuadrillo{
+    border: solid 2px rgb(219, 24, 226);
+    max-width: 40rem;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.cabecita{
+    padding: 10px;
+    background-color: rgb(220, 46, 176) ;
+    color: aliceblue;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.cuerpito{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form{
+    
+    padding: 20px 40px;
+    display: flex;
+    
+}
+.botones{
+    padding: 5px 10px;
+    background-color: rgb(242, 243, 248);
+    border: 2px solid  rgb(0, 0, 0);
+    border-radius: 5px;
+    
+}
+.inputs{
+    padding: 9px 37px;
+    border-radius: 5px;
+    border: 2px solid  rgb(0, 0, 0);
+}
+.enlace{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.buton_azul{
+    background-color: rgb(186, 22, 178);
+    color: rgb(84, 144, 196);
+    padding: 8px;
+    border: 1px solid  rgb(200, 26, 177);
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+
+}
+.contene_mini{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
+
+}
+.ruc{
+    margin-top: 10px;
+}
+.candado{
+    margin-top: 40px;
+}
+
+h1{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+div{
+    text-align: center;
+}
+a{
+    font-size: 30px;
+}
